@@ -144,4 +144,20 @@ Upon execution, the scripts will generate the following outputs, corresponding t
 * `--wgr_alpha`: The regularization strength for the WGR calibration layer.
     * *Tip*: Adjust this to prevent overfitting when fitting the calibrator on small subsets.
 
+## 📌 Citation & Usage
+
+If you use this codebase, any part of the RULERS framework, or derived artifacts (including rubric bundles, evidence-anchored scoring logs, or calibration procedures) in your research, please **cite our paper**:
+
+```bibtex
+@article{hong2026rulers,
+  title     = {RULERS: Locked Rubrics and Evidence-Anchored Scoring for Robust LLM Evaluation},
+  author    = {Hong, Yihan and Yao, Huaiyuan and Shen, Bolin and Xu, Wanpeng and Wei, Hua and Dong, Yushun},
+  journal   = {arXiv preprint arXiv:2601.08654},
+  year      = {2026},
+  archivePrefix = {arXiv},
+  eprint    = {2601.08654},
+  primaryClass = {cs.CL},
+  doi       = {10.48550/arXiv.2601.08654},
+  url       = {https://arxiv.org/abs/2601.08654}
+}
 
