@@ -1,0 +1,9 @@
+This demo includes the ASAP2.0 holistic rubric in rulers_demo/config.py by default.
+
+To use a different rubric while keeping the ASAP2.0 data loader, replace this file
+with the target rubric and pass:
+
+  --rubric-txt examples/asap2_rubric.txt
+
+For a different task, also update the data loader, score range, trait list, and
+rubric-bundle schema as described in README.md.

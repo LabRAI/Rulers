@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+rulers_demo_outputs/
+*.zip
+*.jsonl
+*.csv
